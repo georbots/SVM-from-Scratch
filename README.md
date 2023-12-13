@@ -30,6 +30,8 @@ $L(\mathbf{W}, b, \boldsymbol{\alpha}) = \frac{1}{2} \lVert \mathbf{W} \rVert^2 
 
 By setting the partial derivatives of this function to 0 we can find the extremum we are looking for. So we have:
 
+${\partial L \over \partial \vec{W}} \implies$
+
 $\vec{W} - \sum_{i=1} \alpha_i y_i \vec{x}_i = 0 \implies$ 
 
 $\vec{W} = \sum_{i=1} \alpha_i y_i \vec{x}_i$
