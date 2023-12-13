@@ -59,7 +59,7 @@ This implementation includes an SVM module with Linear and Gaussian kernels and 
 
 ### Non-linearly Separable Data
 <p align="left">
-  <img src="images/Non_linear_example_synthetic_dataset.png" alt='Non-linearly Separable Data" width = 95%>
+  <img src="images/Non_linear_example_synthetic_dataset.png" alt='Non-linearly Separable Data" width = 95%">
 </p>
 
 | Training Set | Test Set |
