@@ -22,7 +22,7 @@ And we define $y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) - 1 = 0$, \textbf{(1)
 
 Now in order to get the equation of the width of the margin we can see that: 
 
-$$(\vec{x}_{+} - \vec{x}_{-}) \cdot 1$$
+$$\text{width} = (\vec{x_{+}} - \vec{x_{-}}) \cdot {-b \pm \vec{W} \over \lVert \vec{W} \rVert}$$
 
 
 
