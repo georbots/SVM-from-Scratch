@@ -18,7 +18,7 @@ $$y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) \geq 1 \implies$$
 
 $$y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) - 1 \geq 0$$
 
-And we define $y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) - 1 \eq 0$ for every datapoint that is exactly on the allowed margin from the Hyperplane.
+And we define $y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) - 1 = 0$ for every datapoint that is exactly on the allowed margin from the Hyperplane.
 
 
 
