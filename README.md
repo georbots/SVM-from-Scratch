@@ -20,7 +20,7 @@ $$y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) - 1 \geq 0$$
 
 And we define $y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) - 1 = 0$, (1) for every datapoint that is exactly on the allowed margin from the Hyperplane.
 
-Now in order to get the equation of the width of the margin we can see that $\text{width} = (\vec{x_{+}} - \vec{x_{-}}) \cdot {-b \pm \vec{W} \over \lVert \vec{W} \rVert}$, but from (1) we can end up with $width = {-b \pm 2 \over \lVert \vec{W} \rVert}$
+Now in order to get the equation of the width of the margin we can see that $\text{width} = (\vec{x_{+}} - \vec{x_{-}}) \cdot {-b \pm \vec{W} \over \lVert \vec{W} \rVert}$, but from (1) we can end up with $width = {\pm 2 \over \lVert \vec{W} \rVert}$
 
 
 
