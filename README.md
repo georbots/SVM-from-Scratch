@@ -31,6 +31,8 @@ $L(\mathbf{W}, b, \boldsymbol{\alpha}) = \frac{1}{2} \lVert \mathbf{W} \rVert^2 
 By setting the partial derivatives of this function to 0 we can find the extremum we are looking for. So we have:
 
 $\mathbf{W} - \sum_{i=1}^{N} \alpha_i y_i \mathbf{x}_i = 0 \implies \mathbf{W} = \sum_{i=1}^{N} \alpha_i y_i \mathbf{x}_i$
+
+
 Two test cases are shown. One with linearly separable data:
 ![Image Alt Text](images/Linear_example_synthetic_dataset.png)
 
