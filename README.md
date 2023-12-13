@@ -14,7 +14,8 @@ $$\vec{W} \cdot \vec{x}_{\text{+}} + b \geq 1$$
 $$\vec{W} \cdot \vec{x}_{\text{-}} + b \leq -1$$
 
 To simplify these two expressions we can multiply them with $y_{i}$ and end up with a singular inequality to cover both cases:
-$$y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) \geq 1$$
+$$y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) \geq 1 \implies y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) -1 \geq 0$$ 
+
 
 
 
