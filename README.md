@@ -8,7 +8,7 @@ The Support Vector Machine, was firstly proposed by Vladimir Vapnik and Alexey C
 The mathematical modelling of the problem is as follows:
 The classes $y_{i}$ are defined as +1 for positive and -1 for negative. 
 
-We need to define a weight matrix W and a bias b such as:
+In order to define the Hyperplane, we need to calculate a weight W and a bias b such as:
 $$\vec{W} \cdot \vec{x}_{\text{+}} + b \geq 1$$
 
 $$\vec{W} \cdot \vec{x}_{\text{-}} + b \leq -1$$
