@@ -6,7 +6,7 @@ The implementation includes an SVM module with Linear and Gaussian kernels and a
 The Support Vector Machine, was firstly proposed by Vladimir Vapnik and Alexey Chervonenkis in the ealry 1960s but was not published until 1995[^1]. It is an algorithm that aims to classify data points of two discrete classes by discovering the optimal hyperplane to separate them in an n-dimensional space. 
 
 The mathematical modelling of the problem is as follows:
-The classes $$\ y_{i} \$$ are defined as +1 for positive and -1 for negative. 
+The classes $\ y_{i} \$ are defined as +1 for positive and -1 for negative. 
 
 We need to define a weight matrix W and a bias b such as:
 $$ w \cdot x_{\text{positive}} + b \geq 1 $$
