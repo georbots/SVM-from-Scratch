@@ -22,8 +22,7 @@ And we define $y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) - 1 = 0$, (1) for eve
 
 Now in order to get the equation of the width of the margin we can see that $\text{width} = (\vec{x_{+}} - \vec{x_{-}}) \cdot {\vec{W} \over \lVert \vec{W} \rVert}$, but from (1) we can end up with $width = {2 \over \lVert \vec{W} \rVert}$ and we need to maximize this margin. This is the same with maximizing ${1 \over \lVert \vec{W} \rVert}$ or minimizing $\lVert \vec{W} \rVert$.
 
-
-
+For the convenience of our mathematic solution we decide to convert our minimization target to ${1 /over 2} \cdot (\lVert \vec{W} \rVert)^2$.
 
 Two test cases are shown. One with linearly separable data:
 ![Image Alt Text](images/Linear_example_synthetic_dataset.png)
