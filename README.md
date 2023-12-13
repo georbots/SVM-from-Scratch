@@ -9,9 +9,9 @@ The mathematical modelling of the problem is as follows:
 The classes $y_{i}$ are defined as +1 for positive and -1 for negative. 
 
 We need to define a weight matrix W and a bias b such as:
-$$\mathbf{W} \cdot \mathbf{x}_{\text{+}} + b \geq 1$$
+$$\vec{W} \cdot \vec{x}_{\text{+}} + b \geq 1$$
 
-$$\mathbf{W} \cdot \mathbf{x}_{\text{-}} + b \leq -1$$
+$$\vec{W} \cdot \vec{x}_{\text{-}} + b \leq -1$$
 
 
 
