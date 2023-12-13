@@ -7,8 +7,9 @@ The Support Vector Machine, was firstly proposed by Vladimir Vapnik and Alexey C
 
 The mathematical modelling of the problem is as follows:
 The classes \[y_{i}] are defined as +1 for positive and -1 for negative. 
-We need to define a weight matrix W and a bias b such as: $w \cdot x_{\text{positive}} + b \geq 1 \$
-                                                          $w \cdot x_{\text{negative}} + b \leq -1 \$
+
+We need to define a weight matrix W and a bias b such as:
+$w \cdot x_{\text{positive}} + b \geq 1 \$ and $w \cdot x_{\text{negative}} + b \leq -1 \$
 
 
 
