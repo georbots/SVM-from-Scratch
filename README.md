@@ -1,7 +1,5 @@
 This is an SVM implementation with numpy and the quadratic programming framework CVXOPT.
 
-The implementation includes an SVM module with Linear and Gaussian kernels and a test to showcase its abillity to classify data.
-
 # SVM
 The Support Vector Machine, was firstly proposed by Vladimir Vapnik and Alexey Chervonenkis in the ealry 1960s but was not published until 1995[^1]. It is an algorithm that aims to classify data points of two discrete classes by discovering the optimal hyperplane to separate them in an n-dimensional space. 
 
@@ -39,7 +37,14 @@ and
 ${\partial L \over \partial b} = - \sum_{i=1} \alpha_i y_i = 0 \implies$
 
 $\sum \alpha_i y_i = 0$
-  
+
+
+The problem we came up with is called a quadratic optimization problem and can be solved using a computer. The CVXOPT library is used in the code of this repository to implement our solution.
+
+The above mathematics are just the foundation of the SVM classifier. The code contains also implementation of the **soft margin** and **gaussian kernel trick**.
+
+The implementation includes an SVM module with Linear and Gaussian kernels and a test to showcase its abillity to classify synthetic data.
+
 Two test cases are shown. One with linearly separable data:
 ![Image Alt Text](images/Linear_example_synthetic_dataset.png)
 
