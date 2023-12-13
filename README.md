@@ -52,6 +52,7 @@ This implementation includes an SVM module with Linear and Gaussian kernels and 
 <p align="left">
   <img src="images/Linear_example_synthetic_dataset.png" alt="Linear Separable Data" width="80%">
 </p>
+
 | Training Set | Test Set |
 |--------------|----------|
 | ![Training Set](images/Linear_example_svm_train_solution.png) | ![Test Set](images/Linear_example_svm_test_solution.png) |
