@@ -34,6 +34,12 @@ ${\partial L \over \partial \vec{W}} = \vec{W} - \sum_{i=1} \alpha_i y_i \vec{x}
 
 $\vec{W} = \sum_{i=1} \alpha_i y_i \vec{x}_i$
 
+and 
+
+${\partial L \over \partial b} = - \sum_{i=1} \alpha_i y_i = 0 \implies$
+
+$\sum_{i=1}^{N} \alpha_i y_i = 0$
+  
 Two test cases are shown. One with linearly separable data:
 ![Image Alt Text](images/Linear_example_synthetic_dataset.png)
 
