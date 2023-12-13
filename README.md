@@ -18,9 +18,9 @@ $$y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) \geq 1 \implies$$
 
 $$y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) - 1 \geq 0$$
 
-And we define $y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) - 1 = 0$, (1) for every datapoint that is exactly on the allowed margin from the Hyperplane.
+And we define $y_{i} \cdot (\vec{W} \cdot \vec{x}_{i} + b) - 1 = 0$, \textbf{(1)} for every datapoint that is exactly on the allowed margin from the Hyperplane.
 
-
+Now in order to get the equation of the width of the margin we can see that $width = (\vec{x}_{+} + \vec{x}_{-}) \cdot \fraq{\vec{W}}{\lVert W \rVert}$
 
 
 Two test cases are shown. One with linearly separable data:
