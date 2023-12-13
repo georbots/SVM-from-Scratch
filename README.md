@@ -45,27 +45,36 @@ The problem we came up with is called a quadratic optimization problem and can b
 The above mathematics are just the foundation of the SVM classifier. The code contains also implementation of the **soft margin** and **gaussian kernel trick**.
 
 ## SVM Classifier Implementation
-This implementation includes an SVM module with Linear and Gaussian kernels and a test to showcase its abillity to classify synthetic data.
 
+This implementation includes an SVM module with Linear and Gaussian kernels, along with a test to showcase its ability to classify synthetic data.
 
 ### Linearly Separable Data
 <p align="left">
   <img src="images/Linear_example_synthetic_dataset.png" alt="Linearly Separable Data" width="95%">
 </p>
 
+In the case of linearly separable data, the SVM effectively classifies the points into two distinct classes. The training and test sets are visualized below:
+
 | Training Set | Test Set |
 |--------------|----------|
 | ![Training Set](images/Linear_example_svm_train_solution.png) | ![Test Set](images/Linear_example_svm_test_solution.png) |
+
+Here, the SVM creates a linear decision boundary to separate the two classes in the training set, and it generalizes well to new, unseen data in the test set.
 
 ### Non-linearly Separable Data
 <p align="left">
   <img src="images/Non_linear_example_synthetic_dataset.png" alt="Non-linearly Separable Data" width="95%">
 </p>
 
+For non-linearly separable data, the SVM leverages the Gaussian kernel trick to handle complex decision boundaries. The training and test sets are illustrated below:
+
 | Training Set | Test Set |
 |--------------|----------|
 | ![Training Set](images/Non_linear_example_svm_train_solution.png) | ![Test Set](images/Non_linear_example_svm_test_solution.png) |
 
+In this scenario, the SVM employs a Gaussian kernel to transform the feature space, allowing for more intricate decision boundaries that can capture the underlying patterns in the data.
+
+These visualizations demonstrate the versatility of the SVM classifier in handling both linearly and non-linearly separable data through appropriate kernel choices.
 
 ## References
 [^1]:Cortes, Corinna, and Vladimir Vapnik. "Support-vector networks." Machine learning 20 (1995): 273-297.
