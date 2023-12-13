@@ -24,6 +24,10 @@ Now in order to get the equation of the width of the margin we can see that $\te
 
 For the convenience of our mathematic solution we decide to convert our minimization target to ${1 \over 2} \cdot \lVert \vec{W} \rVert^2$.
 
+We have reached to a point where we have to find the extremum of a function with constraints. This can be achived with Lagrange multipliers.
+
+$L(\mathbf{W}, b, \boldsymbol{\alpha}) = \frac{1}{2} \lVert \mathbf{W} \rVert^2 - \sum_{i=1}^{N} \alpha_i \left[ y_i (\mathbf{W} \cdot \mathbf{x}_i + b) - 1 \right]$
+
 Two test cases are shown. One with linearly separable data:
 ![Image Alt Text](images/Linear_example_synthetic_dataset.png)
 
