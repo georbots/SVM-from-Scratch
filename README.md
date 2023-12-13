@@ -56,11 +56,10 @@ Two test cases are shown. One with linearly separable data:
 And non-linearly seaprable data:
 ![Image Alt Text](images/Non_linear_example_synthetic_dataset.png)
 
-The Gaussian classifier identifies the support vectors in the train set:
-![Image Alt Text](images/Non_linear_example_svm_train_solution.png)
+| Training Set | Test Set |
+|--------------|----------|
+| ![Training Set](images/Non_linear_example_svm_train_solution.png) | ![Test Set](images/Non_linear_example_svm_test_solution.png) |
 
-And classifies the samples in the test set using the support vectors:
-![Image Alt Text](images/Non_linear_example_svm_test_solution.png)
 
 
 [^1]:Cortes, Corinna, and Vladimir Vapnik. "Support-vector networks." Machine learning 20 (1995): 273-297.
