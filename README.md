@@ -1,8 +1,9 @@
 This is an SVM implementation with numpy and the quadratic programming framework CVXOPT.
 
-# SVM
-The Support Vector Machine, was firstly proposed by Vladimir Vapnik and Alexey Chervonenkis in the ealry 1960s but was not published until 1995[^1]. It is an algorithm that aims to classify data points of two discrete classes by discovering the optimal hyperplane to separate them in an n-dimensional space. 
+## Introduction
+The Support Vector Machine (SVM), proposed by Vladimir Vapnik and Alexey Chervonenkis in the early 1960s but not published until 1995[^1], is an algorithm designed to classify data points of two discrete classes by discovering the optimal hyperplane to separate them in an n-dimensional space.
 
+## Mathematical Modeling
 The mathematical modelling of the problem is as follows:
 The classes $y_{i}$ are defined as +1 for positive and -1 for negative. 
 
@@ -43,17 +44,18 @@ The problem we came up with is called a quadratic optimization problem and can b
 
 The above mathematics are just the foundation of the SVM classifier. The code contains also implementation of the **soft margin** and **gaussian kernel trick**.
 
-The implementation includes an SVM module with Linear and Gaussian kernels and a test to showcase its abillity to classify synthetic data.
+## SVM Classifier Implementation
+This implementation includes an SVM module with Linear and Gaussian kernels and a test to showcase its abillity to classify synthetic data.
 
-Two test cases are shown. One with linearly separable data:
+
+### Linearly Separable Data
 ![Image Alt Text](images/Linear_example_synthetic_dataset.png)
 
 | Training Set | Test Set |
 |--------------|----------|
 | ![Training Set](images/Linear_example_svm_train_solution.png) | ![Test Set](images/Linear_example_svm_test_solution.png) |
 
-
-And non-linearly seaprable data:
+### Non-linearly Separable Data
 ![Image Alt Text](images/Non_linear_example_synthetic_dataset.png)
 
 | Training Set | Test Set |
@@ -61,5 +63,5 @@ And non-linearly seaprable data:
 | ![Training Set](images/Non_linear_example_svm_train_solution.png) | ![Test Set](images/Non_linear_example_svm_test_solution.png) |
 
 
-
+## References
 [^1]:Cortes, Corinna, and Vladimir Vapnik. "Support-vector networks." Machine learning 20 (1995): 273-297.
